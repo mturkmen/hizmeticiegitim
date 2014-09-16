@@ -8,5 +8,12 @@
     <string name="fatih">Eğitimde FATİH Projesi</string>
     <string name="merhaba">Merhaba!</string>
     <color name="red">#ff0000</color>
+    <string name="vildan">ilki </string>
+    
+    
+    <color name="turkuaz">#1abc9c</color>
+    <color name="mor">#9b59b6</color>
+    <color name="yesil">#2ecc71</color>
+    
 
 </resources>

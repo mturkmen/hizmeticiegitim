@@ -1,6 +1,7 @@
 package tr.gov.eba.egitim;
 
 import android.support.v7.app.ActionBarActivity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -9,7 +10,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
-
+//pinch zoom
 
 public class MainActivity extends ActionBarActivity {
 
@@ -29,8 +30,15 @@ public class MainActivity extends ActionBarActivity {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				Toast.makeText(getApplicationContext(),"Butona bastõnõz!" , Toast.LENGTH_SHORT).show();
-				txt1.setText("Merhaba butonuna basõldõ.");
+				Toast.makeText(getApplicationContext(),"Butona bastiniz!" , Toast.LENGTH_SHORT).show();
+				txt1.setText("Merhaba butonuna basildi.");
+				
+				Intent in = new Intent(MainActivity.this,SecondActivity.class);
+				startActivity(in);
+				
+				
+				
+				
 			}
 		});
         
